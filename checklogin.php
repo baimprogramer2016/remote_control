@@ -21,7 +21,7 @@
 
     $username = $_POST['username'];
     $password = $_POST['password'];
-    $url 	  = 'https://hris.akebono-astra.co.id/sf6/?sfid=sys.sec.authapi';
+    $url 	  = 'this url';
     $data     = array("user" => $username, "pass" => $password);
 
     include('configs/db.php');
