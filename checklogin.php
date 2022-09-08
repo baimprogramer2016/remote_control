@@ -1,8 +1,7 @@
 <?php
     // include('getdata.php');
 
-    // $username = '11569';
-    // $password = 'Bimasetya.250799';
+
     function checkLogin($url, $data){
         $postdata = http_build_query($data);
 
